@@ -1,0 +1,55 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+header {
+  font-size: 1.5em;
+}
+
+#nav-bar {
+  float: left;
+  height: auto;
+  width: 300px;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(204, 255, 221);
+  
+}
+#nav-bar header {
+  border: 1px solid black;
+  padding: 5px;
+}
+.nav-link {
+  height: 40px;
+  width: 300px;
+ 
+  padding: 15px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.main-section {
+margin-left: 350px;
+  margin-right: 30px;
+  position: relative;
+  top: 22px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  position: relative;
+  height: 40px;
+  width: 100%;
+  background-color: rgb(204, 255, 221);
+}
+@media(max-width: 799px) {
+  #nav-bar {
+    float: none;
+      margin: 0 auto;
+        overflow: auto;
+    text-align: center;
+  }
+  .main-section {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
